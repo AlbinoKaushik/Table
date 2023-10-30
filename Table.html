@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td,tr{
+            border: 3px solid black;
+            border-collapse: separate;
+            border-spacing: 10px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            background-color:black ;
+        }
+        td{
+            padding: 10px;
+            color: blue;
+            background-color: blanchedalmond;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <table align="center">
+    <tableHEAD>
+        <th>Name</th>
+        <th>Roll No.</th>
+        <th>Marks</th>
+        <th>Class</th>
+    </tableHEAD>
+    <tablebody>
+        <tr>
+        <td>Rohit</td>
+        <td align="center">45</td>
+        <td align="center">86</td>
+        <td rowspan="4" align="center">2.3</td>
+    </tr>
+    <tr>
+        <td>Mohit</td>
+        <td align="center">23</td>
+        <td align="center">89</td>
+    </tr>
+    <tr>
+        <td>Sumit</td>
+        <td align="center">15</td>
+        <td align="center">76</td>
+    </tr>
+     <tr>
+        <td>Charu</td>
+        <td align="center">13</td>
+        <td align="center">90</td>
+     </tr>
+     <tr>
+    <td colspan="4" align="center">Pass</td>
+</tr>
+    </tablebody>
+
+
+
+    </table>
+</body>
+</html>
